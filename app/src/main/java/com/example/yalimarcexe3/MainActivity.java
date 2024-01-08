@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
         count++;
         String str="This is a click number:"+count;
         bt.setText(str);
-        if (count==6)
-            bt.setText("Enough to click. Go to new start!")
-            count=0;
-);
+        if (count==6){
+            bt.setText("Enough to click. Go to new start!");
+            count=0;}
+
     }
 }
